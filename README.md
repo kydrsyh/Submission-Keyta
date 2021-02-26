@@ -54,3 +54,19 @@ This Endpoint will get the shiping rate data base on rule given (GrabExpress, Si
 ```bash
 - GET - http://localhost:3003/shipping/markup/selection
 ```
+
+## How to read this code
+
+I divided the code based on
+
+- Controller
+- Routes
+- Server/ index.js
+
+If you want to read this code start with
+
+- index.js
+- Routes
+- Controllers
+
+In this API i am not making any validation input, so i don't need middleware fucntion.
