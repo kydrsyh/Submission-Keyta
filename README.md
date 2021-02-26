@@ -35,12 +35,12 @@ npm test
 
 This API is running on localhost, you can change the port on .env file
 
-# You can test the API using POSTMAN or any other API tester.
+# You can test the API using POSTMAN or any other API tester or just using browser.
 
 This Endpoint will get the shipping rate data from keyta/api and sort it by the rule given.
 
 ```bash
-POST - http://localhost:3003/shipping
+GET - http://localhost:3003/shipping
 ```
 
 This Endpoint will add a markup to the total price from http://localhost:3003/shipping API.

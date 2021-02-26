@@ -81,7 +81,7 @@ class ShippingRateController {
         try {
             // Fetch data from getRate shipping method
             let getData = {
-                method: 'POST',
+                method: 'GET',
                 url: `http://localhost:${port}/shipping`,
                 headers: {
                     'Content-Type': 'application/json',
